@@ -1,0 +1,138 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables / Secrets
+.env
+.env.*
+!.env.example
+
+# =========================
+# FastAPI / Backend
+# =========================
+*.log
+logs/
+*.sqlite3
+*.db
+
+# Uploads / Generated Files
+uploads/
+media/
+output/
+outputs/
+tmp/
+temp/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Type Checking / Linters
+# =========================
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React / Vite Build
+dist/
+build/
+.vite/
+
+# =========================
+# Frontend Environment
+# =========================
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# AI / ML
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.bin
+*.safetensors
+
+# Model / Vector DB Data
+models/
+checkpoints/
+vectorstore/
+chroma/
+chroma_db/
+faiss_index/
+
+# =========================
+# Database / Docker
+# =========================
+postgres_data/
+docker-data/
+*.pid
+
+# =========================
+# AWS / Cloud
+# =========================
+.aws/
+*.pem
+
+# =========================
+# OS / Misc
+# =========================
+*.tmp
+*.bak
+*.cache
